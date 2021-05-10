@@ -14,7 +14,6 @@ class TestCase():
         print("Start!!!")
     def teardown_class(self):
         print("ending!!!")
-        print("ending!!!")
         driver.quit()
     def setup_method(self):
         # 这里是要测试的网页，打开网页

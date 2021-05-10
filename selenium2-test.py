@@ -38,7 +38,7 @@ class TestCase():
         driver.find_element_by_id("kw").send_keys("666")
         driver.find_element_by_id("su").click()
     def test_selenium6(self):
-        driver.find_element_by_id("kw").send_keys("")
+        driver.find_element_by_id("kw").send_keys("www.qq.com")
         driver.find_element_by_id("su").click()
     def test_selenium7(self):
         driver.find_element_by_id("kw").send_keys("csgo")
