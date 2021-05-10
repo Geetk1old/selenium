@@ -29,7 +29,7 @@ class TestCase():
         driver.find_element_by_id("kw").send_keys(" ")
         driver.find_element_by_id("su").click()
     def test_selenium3(self):
-        driver.find_element_by_id("kw").send_keys("#")
+        driver.find_element_by_id("kw").send_keys("!")
         driver.find_element_by_id("su").click()
     def test_selenium4(self):
         driver.find_element_by_id("kw").send_keys("hello")
@@ -44,7 +44,7 @@ class TestCase():
         driver.find_element_by_id("kw").send_keys("csgo")
         driver.find_element_by_id("su").click()
     def test_selenium8(self):
-        driver.find_element_by_id("kw").send_keys("bilibili")
+        driver.find_element_by_id("kw").send_keys("天气预报")
         driver.find_element_by_id("su").click()
     def test_selenium9(self):
         driver.find_element_by_link_text("新闻").click()
